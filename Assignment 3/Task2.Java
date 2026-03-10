@@ -9,16 +9,25 @@ public class Task2{
 
         System.out.println("Please Enter number of Crystals (C)");
         int Crystals = sc.nextInt();
-        int p = 0 ;
+        
 
-        for(int h = 3 , c = 2 ; Herbs >= 0 && Crystals >= 0 ; h += 3, c += 2 ){ // initialization , condition , update 
+        for(int p = 1; Herbs >= 3 && Crystals >= 2; p++){ // initialization , condition , update // 
             Herbs -= 3; // decrement herbs by 3 every creation 
             Crystals -= 2; 
             if ( Herbs >= 0 && Crystals >= 0 ){
-                p++ ;
+                
                 System.out.println("Potion-" + p + " created");
                 System.out.println("Remaining Herbs: " + Herbs + ",Remaining Crystals:" + Crystals);
                 
+            }
+            if(p % 2 == 0 ){
+                System.out.println("Stable Elixir");
+                
+
+
+            }
+            else{
+                System.out.println("Volatile Brew");
             }
             System.out.println("potions created:" + p );    
             
