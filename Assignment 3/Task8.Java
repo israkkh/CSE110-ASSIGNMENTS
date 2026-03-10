@@ -8,7 +8,7 @@ public class Task8 {
         int negative = 0 ; 
         for(int i = 0 ; i < inputnum ; i++){ // initialization condition update\
             
-            System.out.println("please enter an integr");
+            System.out.println("please enter a number");
             int numloop = sc.nextInt();
             if (numloop < 0){
                 negative++ ;
