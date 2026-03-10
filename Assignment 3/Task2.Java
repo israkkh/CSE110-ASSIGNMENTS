@@ -27,7 +27,7 @@ public class Task2{
 
             }
             else{
-                System.out.println("Volatile Brew");
+                System.out.println("Volatile Brew"); // condition check odd or even 
             }
             System.out.println("potions created:" + p );    
             
