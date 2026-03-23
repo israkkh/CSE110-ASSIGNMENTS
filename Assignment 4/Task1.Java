@@ -29,6 +29,14 @@ public class Task1{
             }
         }
 
+        // mind map 
+        // take starting and input using Scanner
+        // run a for loop for that range 
+        // inside for run while loops , u dont need another for loop in this scenario 
+        // first while checks how many digits it has which it will use math power to , use digit division logic
+        // second while will extract each digit using mod logic , math sq it den add it to the sum and use  division logic to actract the next digit 
+        // after that compare sum and row if same print the msg 
+
 
     }
 }
