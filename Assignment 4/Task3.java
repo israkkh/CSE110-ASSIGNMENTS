@@ -19,14 +19,12 @@ public class Task3 {
             // if conditions
             if(sum >= 500 ){
                 sum = sum + sum*0.1 ;
-                
-                
+                 
 
             }
             else if(sum >= 200){
                 sum = sum + sum*0.05 ;
                
-                
 
             }
             else if(sum >= 100){
